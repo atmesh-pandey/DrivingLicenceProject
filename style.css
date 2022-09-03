@@ -1,0 +1,116 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 162, 162);
+    width: 50rem;
+    /* height: 30rem; */
+    margin-bottom: 2rem;
+    margin: auto;
+}
+form{
+    margin: 5.5rem;
+    padding-bottom: 2em;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+#label{
+    font-size: medium;
+}
+#select{
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    /* padding-left: 1rem; */
+    /* display: flex; */
+    /* padding: 1rem; */
+    justify-content: space-evenly;
+    background-color: rgb(253, 243, 243);
+    margin-top: 1rem;
+}
+#select option{
+    width: 20rem;
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+}
+
+#Nametag{
+    font-weight: 900;
+}
+#fullName{
+    margin-left: 3rem;
+}
+#nameInput{
+    padding: 10px;
+    width: 25rem;
+    height: 1rem;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 20px;
+    background-color: rgb(246, 244, 244);
+    border: none;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.radio{
+    display: flex;
+    justify-content: space-around;
+}
+#private, #commercial, #paper, #smart {
+    padding: 10px;
+    width: 15rem;
+    height: 1rem;
+    border-radius: 15px;
+    padding-left: 20px;
+    background-color: rgb(246, 244, 244);
+    border: none;
+}
+button{
+text-align: center;
+display: block;
+margin: 0 auto;
+width: 6rem;
+height: 2rem;
+border-radius: 15px;
+border: none;
+
+}
+
+.status{
+    margin: 0.6em;
+    height: 8px;
+    width: 98%;
+    display:  flex;
+    justify-content: left;
+    align-items: center;
+}
+.status .bar{
+    height: 100%;
+    /* width: ; */
+    border-radius: 12px;
+    background-color: red;
+}
+button{
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button svg{
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1.5em;
+}
+input.error{
+    border: 1px dashed red !important;
+    font-weight: 300;
+    color: red !important;
+}

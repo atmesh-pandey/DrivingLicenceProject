@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" id="registration_form">
+            <div class="status">
+                <div class="bar"></div>
+            </div>
+            <!-- <label name="issue" id="label">Issue</label><br>
+            <select name="issue" id="select">
+                <option>Choose Issue</option>
+                <option>Sales</option>
+                <option>Document Pickup</option>
+                <option>Document Dispatch</option>
+                <option>Document Return</option>
+                <option>Payment</option>
+            </select> -->
+
+            <div class="heading">
+                <h1 style="color: red;">let's get started!</h1>
+                <p style="color: gray;">Add your details(As per your registered recoads)</p>
+            </div>
+
+            <div id="fullName">
+                <label for="name" id="Nametag">Name</label><br>
+                <input type="text" name="name" id="nameInput" placeholder="Emter Name" ><br>
+            </div>
+            <label style="margin-left: 3rem; font-weight:900; margin-bottom: 1rem;">Nature of Driving
+                License</label><br>
+            <div class="radio" style="margin-top: 1rem; margin-bottom: 1rem;">
+                <div id="private">
+                    <input id="priv" name="nature_dl" type="radio">
+                    <label for="priv">Private</label><br>
+                </div>
+                <div id="commercial">
+                    <input id="comm" name="nature_dl" type="radio">
+                    <label for="comm">Commercial</label><br>
+                </div>
+                <!-- <label for="nature_dl" class="error"></label> -->
+            </div>
+            <label style="margin-left: 3rem; font-weight:900;">Type of Previous Driving License</label><br>
+            <div class="radio" style="margin-top: 1rem; margin-bottom: 1rem;">
+                <div id="paper">
+                    <input id="pdl" name="smart_dl" type="radio">
+                    <label for="pdl">Paper Driving License</label><br>
+                </div>
+                <div id="smart">
+                    <input id="sdl" name="smart_dl" type="radio">
+                    <label for="sdl">Smart Driving License</label><br>
+                </div>
+                <!-- <label for="smart_dl" class="error"></label> -->
+            </div>
+            <button class="back">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24">
+                    <g data-name="Layer 2">
+                        <path
+                            d="M13.83 19a1 1 0 0 1-.78-.37l-4.83-6a1 1 0 0 1 0-1.27l5-6a1 1 0 0 1 1.54 1.28L10.29 12l4.32 5.36a1 1 0 0 1-.78 1.64z"
+                            data-name="arrow-ios-back" />
+                    </g>
+                </svg>
+                Back</button>
+
+        </form>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
